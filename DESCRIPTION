@@ -1,0 +1,31 @@
+Package: eClassic
+Title: Efficient Classic & Traditional Factors Toolkit for Quantitative Research in R
+Version: 0.1.0
+Authors@R: 
+    person(given = "Yishuo",
+           family = "Deng",
+           role = c("aut", "cre"),
+           email = "dengyishuo@163.com")
+Description: A fast, lightweight R package for computing classic and traditional quantitative
+    factors such as size, value, momentum, profitability, quality, volatility,
+    and liquidity. It provides helper functions for quantitative research
+    and multi-factor model development.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    dplyr,
+    magrittr,
+    tibble,
+    rlang,
+    zoo,
+    TTR,
+    roll,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
+Depends: 
+    R (>= 3.5)
+LazyData: true

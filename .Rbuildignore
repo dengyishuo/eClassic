@@ -1,0 +1,14 @@
+^^\\.Rprofile$$
+^^\\.gitignore$$
+^^\.*\\.Rproj$$
+^^README\\.Rmd$$
+^^docs$$
+^^demo$$
+^LICENSE\.md$
+^dev$
+^eClassic\.Rproj$
+^\.Rprofile$
+^\.gitignore$
+^README\.Rmd$
+^demo$
+^data-raw$
