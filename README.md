@@ -11,7 +11,8 @@ Designed for ETF & stock backtesting with a clean, consistent API.
 Install from GitHub:
 
 ```r
-devtools::install_github("dengyishuo/eClassic")
+pak::pak("dengyishuo/eClassic")
+```
 
 ## Quick Start
 
